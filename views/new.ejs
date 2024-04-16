@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Please Create a <%= title %></p>
+    <form method="POST" action="/new">
+        <input type="text" name="message" placeholder="Message"/>
+        <input type="text" name="user" placeholder="User"/>
+        <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
